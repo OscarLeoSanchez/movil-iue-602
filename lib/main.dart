@@ -1,4 +1,4 @@
-import 'package:consumo_api_app/contador.dart';
+import 'package:consumo_api_app/dashboar_api.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,6 +10,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: Scaffold(body: Contador()));
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(body: DashboardApi()),
+    );
   }
 }
