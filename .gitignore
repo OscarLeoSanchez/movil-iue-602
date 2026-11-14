@@ -1,0 +1,111 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-deps
+.pub/
+build/
+
+# Symbolication files (Android / iOS / Web)
+app.*.symbols
+
+# Obfuscation maps/files
+app.*.map.json
+
+# Android relative files
+**/android/app/debug.keystore
+**/android/app/*.jks
+**/android/app/*.keystore
+**/android/key.properties
+**/android/.gradle/
+**/android/local.properties
+**/android/captures/
+**/android/.cxx/
+**/android/.externalNativeBuild/
+**/android/build/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/DerivedData/
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Podfile.lock
+
+# Web specific artifacts
+# Si deseas versionar la configuración base de web, mantén index.html,
+# pero excluye archivos generados y de distribución local si los compilas en el repo.
+# Por lo general, los artefactos de compilación web van en build/ (ya cubierto por .dart_tool/ y build/).
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.sts.*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Environment and sensitive files
+.env
+.env.*
+!.env.example

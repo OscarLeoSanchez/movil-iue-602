@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "926884167116",
+    "project_id": "iue-project-mov-602",
+    "storage_bucket": "iue-project-mov-602.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926884167116:android:5ac72e1c11bdfb25413169",
+        "android_client_info": {
+          "package_name": "co.edu.iue.clase_db_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjuTSImHv5RLF63K21cE79eRlJZIE3uvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
